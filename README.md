@@ -103,11 +103,11 @@ default: &default
 
 development:
   <<: *default
-  database: simpleformwithdocker_development
+  database: railsapp_development
 
 test:
   <<: *default
-  database: simpleformwithdocker_test
+  database: railsapp_test
 ```
 Start the web app with:
 ```
