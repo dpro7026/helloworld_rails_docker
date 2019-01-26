@@ -12,7 +12,7 @@ Installation uses Docker Compose:
 ```
 docker-compose build
 docker-compose up
-docker-compose run web rails db:create
+docker-compose run railsapp rails db:create
 ```
 ### Stopping the App
 
