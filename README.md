@@ -1,11 +1,11 @@
 # Rails Hello World with Docker Compose
 
-### Prerequisites
+## Prerequisites
 
-Requires `Docker` and `Docker-compose` installed on your environment.</br>
+Requires `Docker` and `Docker-compose` installed on your environment.<br/>
 You can use the `install_docker_compose.sh` script to setup your environment.
 
-### Installing & Running
+## Installing & Running
 
 Installation uses Docker Compose:
 
@@ -14,17 +14,18 @@ docker-compose build
 docker-compose up
 docker-compose run railsapp rails db:create
 ```
-</br>
-Note: Running on AWS Cloud9 additionally requires running:
+<strong>Note: Running on AWS Cloud9 additionally requires running the following 2 scripts</strong>
+<br/>
+Expose the port 3000 to be publicly accessible:
 ```
 ./cloud9.sh
 ```
-And run the `get_url.sh` to get the URL:
+And get the URL:
 ```
 ./get_url.sh
 ```
 
-### Stopping the App
+## Stopping the App
 
 ```
 docker-compose down
