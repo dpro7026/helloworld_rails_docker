@@ -14,6 +14,16 @@ docker-compose build
 docker-compose up
 docker-compose run railsapp rails db:create
 ```
+</br>
+Note: Running on AWS Cloud9 additionally requires running:
+```
+./cloud9.sh
+```
+And run the `get_url.sh` to get the URL:
+```
+./get_url.sh
+```
+
 ### Stopping the App
 
 ```
